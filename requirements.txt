@@ -1,0 +1,4 @@
+#requirements
+tkinter
+sqlite3
+reportlab

@@ -1,0 +1,81 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* Títulos */
+h1,
+h2 {
+  margin: 0;
+}
+
+/* Botões */
+.button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #4cae4c;
+}
+
+/* Formulários */
+input[type="text"],
+input[type="date"] {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #35424a;
+  color: white;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  background: #35424a;
+  color: white;
+}
